@@ -56,11 +56,20 @@ mini-local-business-dashboard/
 ### ✅ Prerequisites
 
 - **Node.js** & **npm** installed
+- **Create frontend and backend **
+
+- npm create vite@latest frontend -- --template react
+cd frontend
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
 
 
 ### 📦 Install & Run Backend
 
-```bash
+npm init -y
+
 cd backend
 npm install
 npm start
@@ -85,8 +94,6 @@ Edit
 Returns:
 
 json
-Copy
-Edit
 {
   "rating": 4.3,
   "reviews": 127,
@@ -96,8 +103,6 @@ GET /regenerate-headline?name=Cake+%26+Co&location=Mumbai
 Returns:
 
 json
-Copy
-Edit
 {
   "headline": "Discover Why Cake & Co is Mumbai's Top Bakery"
 }
